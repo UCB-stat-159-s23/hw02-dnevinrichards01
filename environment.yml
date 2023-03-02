@@ -1,0 +1,28 @@
+name: ligo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - ipykernel
+  - numpy[version='>=1.21']
+  - alembic[version='>=1.8']
+  - anyio[version='>=3.6']
+  - argon2-cffi[version='>=21.3']
+  - async_generator[version='>=1.10']
+  - attrs[version='>=22.1']
+  - babel[version='>=2.10']
+  - beautifulsoup4[version='>=4.11']
+  - bleach[version='>=5.0']
+  - blinker[version='>=1.5']
+  - brotlipy[version='>=0.7']
+  - c-ares[version='>=1.18']
+  - certifi[version='>=2022.9']
+  - certipy[version='>=0.1']
+  - charset-normalizer[version='>=2.1']
+  - cycler[version='>=0.11']
+  - defusedxml[version='>=0.7']
+  - fonttools[version='>=4.38']
+  - h5py[version='>=3.7']
+  - icu[version='>=70.1']
+prefix: /home/jovyan/envs/ligo
